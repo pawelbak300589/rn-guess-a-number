@@ -1,9 +1,9 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
 import Colors from '../constants/colors';
 
-const NumberContainer = (props) => {
+const NumberContainer = props => {
   return (
     <View style={styles.container}>
       <Text style={styles.number}>{props.children}</Text>
